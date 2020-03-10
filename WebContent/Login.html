@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>Login</title>
+<style>
+body{
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+width:100%;
+height:100vh;
+background-image:url('search1.jpg');
+}
+#h{
+background-color:black;
+heigth:15px;
+}
+h1{
+text-align:center;
+text-shadow:3px 2px white;
+font-style:italic;
+}
+tr,td,th{
+padding:10px;
+}
+th{
+color:whitesmoke;
+}
+#form1{
+background-color:black;
+height:230px;
+width:400px;
+border-radius:40px;
+font-size:30px;
+box-shadow:10px 10px 10px 10px gray;
+}
+table{
+margin-top:-50px;
+}
+#em1,#pwd1,#r1{
+border-radius:25px;
+background-color:darkgray;
+}
+#reg{
+font-size:15px;
+color:orange;
+}
+</style>
+</head>
+<body>
+<div id="h"><h1><marquee behavior="" direction="left">Welcome to Learning Factory</marquee></h1></div>
+<br><br>
+<center>
+<div id="form1">
+<form action="Login">
+<table>
+<tr>
+<th>Email Id</th>
+<td><input type="email" name="em" id="em1"/></td>
+ <div id="user" style="color:red ;visibility:hidden">*Incorrect user name</div>
+</tr>
+<tr>
+<th>Password</th>
+<td><input type="password" name="pwd" id="pwd1"/></td>
+ <div id="pass" style="color:red ;visibility:hidden">*Invalid Password</div>
+</tr>
+<tr>
+<td colspan="2"><center><input type="submit" value="Login" name="register" id="r1"/></center></td>
+</tr>
+</table>
+<a href="Register.html" id="reg">Click here for Sign Up!!!</a>
+</form>
+</div>
+</center>
+</div>
+</body>
+</html>

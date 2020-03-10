@@ -1,0 +1,92 @@
+<html>
+<head>
+<title>Register</title>
+<style>
+body{
+background-image:url('img.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+width:100%;
+height:100vh;
+}
+#h{
+background-color:black;
+color:orange;
+}
+h1{
+text-align:center;
+}
+tr,td,th{
+padding:20px;
+}
+table{
+padding:10px 10px 40px 0px;
+margin-top:-150px;
+}
+th{
+text-align:left;
+color:whitesmoke;
+}
+h2{
+text-align:center;
+color:whitesmoke;
+font-size:20px;
+}
+#form1{
+background-color:black;
+height:550px;
+width:500px;
+border-radius:40px;
+font-size:30px;
+}
+#fn1,#ln1,#em1,#pwd1,#cpwd1,#rn1{
+
+border-radius:25px;
+background-color:darkgray;
+}
+</style>
+</head>
+<body>
+<div id="h"><h1><marquee>Welcome For Registration</marquee></h1></div>
+<br><br>
+<center>
+<div id="form1">
+<form action="Register">
+<br/>
+<h2>Enter your details:</h2>
+<table>
+<tr>
+<th>First Name</th>
+<td><input type="text" name="fn" id="fn1"/></td>
+<div id="emptyfn" style="color:red ;visibility:hidden">*Compulsory field</div>
+</tr>
+<tr>
+<th>Last Name</th>
+<td><input type="text" name="ln" id="ln1"/></td>
+<div id="emptyln" style="color:red ;visibility:hidden">*Compulsory field</div>
+</tr>
+<tr>
+<th>Email Id</th> 
+<td><input type="email" name="em" id="em1"/></td>
+<div id="emptyem" style="color:red ;visibility:hidden">*Compulsory field</div>
+</tr>
+<tr>
+<th>Password</th>
+<td><input type="password" name="pwd" id="pwd1"/></td>
+<div id="emptypwd" style="color:red ;visibility:hidden">*Compulsory field</div>
+</tr>
+<tr>
+<th>Confirm-Password</th>
+<td><input type="password" name="cpwd" id="cpwd1"/></td>
+<div id="emptycpwd" style="color:red ;visibility:hidden">*not matching</div>
+</tr>
+<tr>
+<td colspan="2"><center><input type="submit" value="Register" name="r1" id="rn1"/></center></td>
+</tr>
+</table>
+</form>
+</div>
+</center>
+</body>
+</html>
